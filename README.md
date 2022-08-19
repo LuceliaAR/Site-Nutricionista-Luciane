@@ -1,8 +1,6 @@
-# Site Nutricionista Luciane Alves
-## Site de profissional da área da saúde.
-### Referências enviadas pela cliente:
+# Site profissional - Nutricionista Luciane Ribeiro
+## Projeto de conclusão do curso de Desenvolvimento Web - Coder House
+### Utilizado HTML, CSS e JavaScript
 
-https://www.nataliebrady.co.nz/ ;
-https://www.alexjoynutrition.com/ ;
-https://fernandascheer.com.br/ ;
-https://www.meghanlivingstone.com/blog/
+![Logo Luciane Ribeiro Nutricionista fundo invisivel](https://user-images.githubusercontent.com/94813579/184510900-fbfbc846-f024-47b7-98b2-4e59fd037eaf.jpg)
+
