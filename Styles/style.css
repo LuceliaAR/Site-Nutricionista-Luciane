@@ -5,16 +5,10 @@ body {
     color: #3B4034;
 }
 
-footer {
-    text-align: center;
-}
-
-
-/* CSS página HOME - Index */
 nav {
 	position:absolute;
 	top: 54px;
-	right: 0;
+	right: 15px;
 }
 
 nav li {
@@ -31,6 +25,37 @@ nav a {
 
 nav a:hover {
 	color: #EDEACE
+}
+
+footer {
+    text-align: center;
+}
+
+/* CSS página HOME - Index */
+
+.title-home {
+    text-align: center;
+    font-size: 2rem;
+    margin: 0 0 40px 0;
+}
+
+.image-home {
+    width: 40%;
+    opacity: 1;
+	transition: 400ms;
+	box-shadow: 10px 10px 10px 0 #545151;
+    margin-left: 15px;
+    float: left;
+
+}
+	
+.image-home:hover {
+	opacity: 0.3;
+}
+
+.paragraph-home {
+    font-size: 1.2rem;
+	    
 }
 
 
