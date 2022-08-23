@@ -6,29 +6,31 @@ body {
 }
 
 nav {
-	position:absolute;
-	top: 54px;
-	right: 15px;
+    position:absolute;
+    top: 54px;
+    right: 15px;
 }
 
 nav li {
-	display: inline;
-	margin: 0 0 0 15px;
+    display: inline;
+    margin: 0 0 0 15px;
+    ;
 }
 
 nav a {
-	text-transform: uppercase;
-	font-size: 22px;
-	text-decoration: none;
+    text-transform: uppercase;
+    font-size: 22px;
+    text-decoration: none;
     color: inherit;
 }
 
 nav a:hover {
-	color: #EDEACE
+    color: #EDEACE
 }
 
 footer {
     text-align: center;
+    padding-top: 50px;
 }
 
 /* CSS página HOME - Index */
@@ -39,25 +41,35 @@ footer {
     margin: 0 0 40px 0;
 }
 
+.container{
+    display: inline-block;
+    position:relative;
+    margin-left: 100px;
+}
+
+.texto{
+    display: inline;
+    position: absolute;
+    width: 500px;
+    
+}
+
 .image-home {
-    width: 40%;
-    opacity: 1;
-	transition: 400ms;
+    display: inline-block;
+    margin-right: 100px;
+    transition: 400ms;
 	box-shadow: 10px 10px 10px 0 #545151;
-    margin-left: 15px;
-    float: left;
 
 }
-	
+    
 .image-home:hover {
-	opacity: 0.3;
+    opacity: 0.3;
 }
 
 .paragraph-home {
     font-size: 1.2rem;
-	    
+    display: inline-block;
 }
-
 
 /* CSS página SOBRE */
 
