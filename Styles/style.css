@@ -52,13 +52,17 @@ footer {
     display: inline;
     position: absolute;
     width: 500px;
+	float: right;
+	margin: 0;
+	padding: 25px;
 }
 
 .image-home {
-    display: inline-block;
-    margin-right: 100px;
+    margin: 0;
+	padding: 10px;
     transition: 400ms;
 	box-shadow: 10px 10px 10px 0 #545151;
+	float: left;
 }
     
 .image-home:hover {
@@ -84,26 +88,152 @@ footer {
     display: inline;
     position: absolute;
     width: 500px;
+	float: right;
+	margin: 0;
+	padding: 25px;
 }
 
-.image-about {
-    display: inline-block;
-    margin-right: 100px;
+.image-about img {
+    display: inline;
+	margin: 0;
+	padding: 10px;
     transition: 400ms;
-	box-shadow: 10px 10px 10px 0 #545151;   
-
+	box-shadow: 10px 10px 10px 0 #545151;
+	float: left;
+	width: 45%;
+}
 
 
 /* CSS página SERVIÇOS */
 
+.services {
+	width: 940px;
+	margin: 0 auto;
+	padding: 50px 0;
+}
+
+.title-service {
+	text-align: center;
+    font-size: 2rem;
+    margin: 0 0 40px 0;	
+}
+
+.services li {
+	display: inline-block;
+	text-align: center;
+	width: 30%;
+	vertical-align: top;
+	margin: 0 1.5%;
+	padding: 30px 20px;
+	box-sizing:border-box;
+	border: 2px solid #000000;
+	border-radius: 10px;
+}
+
+.services li:hover {
+	border-color: #C78C19;
+}
+
+.services li:active {
+	border-color: #088C19;	
+}
+
+.services li:hover h3 {
+	font-size: 25px;
+}
+
+.services h3 {
+	font-size:20p;
+	font-weight: bold	
+}
+
+.image-analise {
+	width: 100%;
+	display: block;
+}
+
+.image-compra {
+	width: 100%;
+	display: block;
+}
+
+.image-cardapio {
+	width: 100%;
+	display: block;
+}
+
+.services-description {
+	font-size: 18px;
+}
 
 
-/* CSS página DICAS */
+/* CSS página RECEITAS */
 
+.recipes {
+	width: 940px;
+	margin: 0 auto;
+	padding: 50px 0;
+}
+
+.title-recipes {
+	text-align: center;
+    font-size: 2rem;
+    margin: 0 0 40px 0;	
+}
+
+.recipes li {
+	display: inline-block;
+	text-align: center;
+	width: 30%;
+	vertical-align: top;
+	margin: 0 1.5%;
+	padding: 30px 20px;
+	box-sizing:border-box;
+	border: 2px solid #000000;
+	border-radius: 10px;
+}
+
+.recipes li:hover {
+	border-color: #C78C19;
+}
+
+.recipes li:active {
+	border-color: #088C19;	
+}
+
+.recipes li:hover h3 {
+	font-size: 25px;
+}
+
+.recipes h3 {
+	font-size:20p;
+	font-weight: bold	
+}
+
+.image-frango {
+	width: 100%;
+	display: block;
+}
+
+.image-ovos {
+	width: 100%;
+	display: block;
+}
+
+.image-berinjela {
+	width: 100%;
+	display: block;
+}
+
+.recipes-description {
+	font-size: 18px;
+}
 
 
 /* CSS página CONTATO */
 
+main {
+	padding-left: 50px;
 }
 
 form label, form legend {
