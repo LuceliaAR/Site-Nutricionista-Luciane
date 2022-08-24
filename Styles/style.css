@@ -45,13 +45,13 @@ footer {
     display: inline-block;
     position:relative;
     margin-left: 100px;
+    font-size: 1.2rem;
 }
 
-.texto{
+.text{
     display: inline;
     position: absolute;
     width: 500px;
-    
 }
 
 .image-home {
@@ -59,19 +59,38 @@ footer {
     margin-right: 100px;
     transition: 400ms;
 	box-shadow: 10px 10px 10px 0 #545151;
-
 }
     
 .image-home:hover {
     opacity: 0.3;
 }
 
-.paragraph-home {
+/* CSS página SOBRE */
+
+.title-about {
+    text-align: center;
+    font-size: 2rem;
+    margin: 0 0 40px 0;
+}
+
+.container-about{
+    position:relative;
+    margin-left: 100px;
     font-size: 1.2rem;
     display: inline-block;
 }
 
-/* CSS página SOBRE */
+.text-about{
+    display: inline;
+    position: absolute;
+    width: 500px;
+}
+
+.image-about {
+    display: inline-block;
+    margin-right: 100px;
+    transition: 400ms;
+	box-shadow: 10px 10px 10px 0 #545151;   
 
 
 
