@@ -142,21 +142,21 @@ footer {
 }
 
 .services h3 {
-	font-size:20p;
+	font-size:20px;
 	font-weight: bold	
 }
 
-.image-analise {
+.image-analysis {
 	width: 100%;
 	display: block;
 }
 
-.image-compra {
+.image-purchase {
 	width: 100%;
 	display: block;
 }
 
-.image-cardapio {
+.image-menu {
 	width: 100%;
 	display: block;
 }
@@ -209,17 +209,17 @@ footer {
 	font-weight: bold	
 }
 
-.image-frango {
+.image-chicken {
 	width: 100%;
 	display: block;
 }
 
-.image-ovos {
+.image-eggs {
 	width: 100%;
 	display: block;
 }
 
-.image-berinjela {
+.image-aubergine {
 	width: 100%;
 	display: block;
 }
@@ -241,7 +241,7 @@ form label, form legend {
 	margin: 0 0 10px;
 }
 
-.input-padrao {
+.input-pattern {
 	display: block;
 	margin: 0 0 20px;
 	padding: 10px 25px;
@@ -252,10 +252,10 @@ form label, form legend {
 	margin: 20px 0;
 }
 
-.enviar {
+.btn {
 	width:40%;
 	padding: 15px 0;
-	background: orange;
+	background: #84A48C;
 	color: white;
 	font-weight: bold;
 	font-size: 18px;
@@ -265,23 +265,14 @@ form label, form legend {
 	cursor: pointer;
 }
 
-.enviar:hover {
-	background: darkorange;
+.btn:hover {
+	background: #DDBF96;
 	transform: scale(1.2);
 }
 
-.mapa {
+.map {
 	padding: 3em 0;
-	background: linear-gradient(#FEFEFE, #888888);
-}
-
-.mapa-conteudo {
 	width: 940px;
 	margin: 0 auto;
+	
 }
-
-.mapa p {
-	margin: 0 0 2em;
-	text-align: center;
-}
-
