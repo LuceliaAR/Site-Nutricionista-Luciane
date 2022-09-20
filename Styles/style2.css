@@ -29,22 +29,17 @@ nav a:hover {
     width: 80%;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: 25% 25% 50%;
-    grid-template-rows: 100px 100px 450px 500px;
+    grid-template-columns: 50% 25% 25%;
+    grid-template-rows: 100px 450px 100px;
     grid-template-areas: 
-    "logo . navbar"
     ". title ."
     "image . content"
-    "footer footer footer"
     ;
-}
-
-header {
-    grid-area: logo navbar;
 }
 
 h2 {
     grid-area: title;
+    text-align: center;
 }
 
 section {
@@ -52,7 +47,6 @@ section {
 }
 
 footer {
-    grid-area: footer;
     display: flex;
     justify-content: space-evenly;
 }
