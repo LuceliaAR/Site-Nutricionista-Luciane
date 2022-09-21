@@ -29,24 +29,31 @@ nav a:hover {
     width: 80%;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: 50% 25% 25%;
-    grid-template-rows: 100px 450px 100px;
+    justify-items:right;
+    grid-template-columns: 10% 50% 40%;
+    grid-template-rows: auto;
     grid-template-areas: 
-    ". title ."
-    "image . content"
+    "logo . navbar"
+    ". title-home ." 
+    "image-home . content"
+    "footer footer footer"
     ;
 }
 
+header {
+    grid-area: logo navbar;
+}
+
 h2 {
-    grid-area: title;
-    text-align: center;
+    grid-area: title-home;
 }
 
 section {
-    grid-area: image content;
+    grid-area: image-home content;
 }
 
 footer {
+    grid-area: footer;
     display: flex;
     justify-content: space-evenly;
 }
